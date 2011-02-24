@@ -40,19 +40,19 @@
     android:layout_height="24dip" 
     android:text="@string/findjamcontent"
     />
-    <Button
-    android:id="@+id/findme"
-    android:layout_width="fill_parent"
-    android:gravity="center"
-    android:layout_height="wrap_content"
-    android:text="@string/findcontent"
-    />
     <EditText
     android:id="@+id/contentedittext"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:maxLines="2"
     android:minLines="1"
+    />
+    <Button
+    android:id="@+id/findme"
+    android:layout_width="fill_parent"
+    android:gravity="center"
+    android:layout_height="wrap_content"
+    android:text="@string/findcontent"
     />
     <TextView  
 	android:id="@+id/usertextview"

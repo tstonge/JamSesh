@@ -9,3 +9,5 @@ public class FindJam extends Activity{
         setContentView(R.layout.findjam);
     }
 }
+
+ 

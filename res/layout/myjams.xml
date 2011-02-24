@@ -33,6 +33,18 @@
   android:layout_width="fill_parent"
   android:layout_height="fill_parent"
   android:orientation="vertical">
+  <TextView
+  android:id="@+id/hosting1"
+  android:layout_width = "fill_parent"
+  android:layout_height = "wrap_content"
+  android:text = "Uncle Joe's Kickout"
+  />
+    <TextView
+  android:id="@+id/hosting2"
+  android:layout_width = "fill_parent"
+  android:layout_height = "wrap_content"
+  android:text = "Play at the Park"
+  />
   </LinearLayout>
   </ScrollView>
       <TextView  
@@ -42,17 +54,24 @@
     android:layout_width="fill_parent" 
     android:layout_height="wrap_content" 
     android:text="@string/attending"
-    android:gravity="left"
+    android:gravity="center_vertical"
     />
-         <ScrollView
-    android:layout_width="fill_parent"
+    <ScrollView
+  android:layout_width="fill_parent"
   android:layout_height="wrap_content"
   android:orientation="vertical">
     <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
   android:layout_width="fill_parent"
   android:layout_height="fill_parent"
-  android:orientation="vertical">
+  android:orientation="vertical">  
+  <TextView
+  android:id="@+id/attending1"
+  android:layout_width = "fill_parent"
+  android:layout_height = "wrap_content"
+  android:text = "Mystery Meat Meet Up"
+  />
+
   </LinearLayout>
   </ScrollView>
   
