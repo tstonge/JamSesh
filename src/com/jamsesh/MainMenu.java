@@ -49,7 +49,7 @@ public class MainMenu extends Activity{
 
 		@Override
 		public void onClick(View v) {
-			Intent i = new Intent(MainMenu.this, MyJams.class);
+			Intent i = new Intent(MainMenu.this, JamList.class);
 			startActivity(i);			
 		}
 		

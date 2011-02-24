@@ -20,7 +20,7 @@
 		<activity android:name="MainMenu" />
 		<activity android:name="FindJam" />
 		<activity android:name="StartJam" />
-		<activity android:name="MyJams" />
+		<activity android:name="JamList" />
 		<activity android:name="Instruments"></activity>
     </application>
 </manifest>
