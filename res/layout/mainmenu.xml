@@ -30,14 +30,18 @@
 	  	android:text="@string/startjam"
 	  	android:layout_width = "fill_parent"
 	  	android:layout_height = "wrap_content"
-	  	android:paddingTop = "15dip"
 	  	/>
 	  	<Button
 	  	android:id="@+id/myjams"
 	  	android:text="@string/myjams"
 	  	android:layout_width = "fill_parent"
 	  	android:layout_height = "wrap_content"
-	  	android:paddingTop = "15dip"
+	  	/>
+	  	<Button
+	  	android:id="@+id/mymessages"
+	  	android:text="@string/mymessages"
+	  	android:layout_width = "fill_parent"
+	  	android:layout_height = "wrap_content"
 	  	/>
   	</LinearLayout>
 </LinearLayout>

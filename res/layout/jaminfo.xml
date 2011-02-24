@@ -10,8 +10,43 @@
 	android:typeface="serif"
 	android:textSize="20dip"
     android:layout_width="fill_parent" 
-    android:layout_height="24dip"
+    android:layout_height="wrap_content"
     android:gravity="center_horizontal"
     />
-  
+    <TextView
+    android:id="@+id/infohost"
+    android:layout_width = "wrap_content"
+    android:layout_height = "wrap_content"
+    android:text = "Host: UncleJoe3178"
+   />
+    <TextView
+    android:id="@+id/infolocation"
+    android:layout_width = "wrap_content"
+    android:layout_height = "wrap_content"
+    android:text = "Location: City Square"
+   />
+       <TextView
+    android:id="@+id/infotime"
+    android:layout_width = "wrap_content"
+    android:layout_height = "wrap_content"
+    android:text = "Time: 2:00 PM"
+   />
+    <TextView
+    android:id="@+id/infosong"
+    android:layout_width = "wrap_content"
+    android:layout_height = "wrap_content"
+    android:text = "Song/Genre: Stairway to Heaven"
+   />
+   <TextView
+    android:id="@+id/infonotes"
+    android:layout_width = "wrap_content"
+    android:layout_height = "wrap_content"
+    android:text = "Notes: Need a Drummer, and Tambourine."
+   />
+  <Button
+  	android:id="@+id/message"
+  	android:layout_width = "fill_parent"
+  	android:layout_height = "wrap_content"
+  	android:text = "Send UncleJoe3178 a message"
+  	/>
 </LinearLayout>

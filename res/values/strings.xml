@@ -35,4 +35,5 @@
     <string name="finduser">Find Users</string>
     <string name="hosting">Hosting</string>
     <string name="attending">Attending</string>
+    <string name="mymessages">View Messages</string>
 </resources>
