@@ -81,8 +81,8 @@ public class Instruments extends Activity {
         skill5 = (Spinner) findViewById(R.id.skill5);
         ArrayAdapter<CharSequence> adapter5 = ArrayAdapter.createFromResource(
                 this, R.array.skills, android.R.layout.simple_spinner_item);
-        adapter4.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        skill4.setAdapter(adapter5);
+        adapter5.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        skill5.setAdapter(adapter5);
         
         skill1.setOnItemSelectedListener(new MyOnItemSelectedListener());
         skill2.setOnItemSelectedListener(new MyOnItemSelectedListener());
