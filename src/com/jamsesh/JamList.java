@@ -40,7 +40,7 @@ public class JamList extends ListActivity {
 		@Override 
 		protected Void doInBackground(Void... unused) {
 			for (String s:jamArray) {
-				publishProgress("Jam Session");				
+				publishProgress(s);				
 			}
 			return(null);
 		}
