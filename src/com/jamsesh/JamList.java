@@ -16,6 +16,7 @@ public class JamList extends ListActivity {
 	@Override 
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState); 
+		getListView().setBackgroundResource(R.drawable.bg);
 		jamArray = new String[3];
 		jamArray[0] = "Jam One";
 		jamArray[1] = "Jam Two";
