@@ -38,9 +38,9 @@ public class JamInfo extends Activity{
         	attend = new Button(this);
         	attend.setText("Attend this Jam Sesh");
         	loc = getIntent().getStringExtra("com.jamsesh.loc");
-        	LocText.setText(loc.toString());
+        	LocText.setText("Location: " + loc.toString());
         	genre = getIntent().getStringExtra("com.jamsesh.genre");
-        	genreText.setText(genre.toString());        	
+        	genreText.setText("Genre: " +genre.toString());        	
         	attend.setClickable(true);
         	ll.addView(attend);
         }
@@ -51,7 +51,8 @@ public class JamInfo extends Activity{
 
 		@Override
 		public void onClick(View v) {
-			Toast.makeText(JamInfo.this, "Jam added to you MyJams Page!", Toast.LENGTH_LONG).show();			
+			attend.setVisibility(4);
+			Toast.makeText(JamInfo.this, "Jam added to your 'MyJams' Page!", Toast.LENGTH_LONG).show();			
 		}
 		
 	};

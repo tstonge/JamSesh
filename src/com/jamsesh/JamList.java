@@ -94,9 +94,9 @@ public class JamList extends ListActivity {
 			jc.loc = jsobject.getString("loc").toString();
 			jc.title = jsobject.getString("name").toString();
 			jc.genre = jsobject.getString("genre").toString();
-			jc.host = jsobject.getString("host").toString();
-			jc.time = jsobject.getString("time").toString();
-			jc.deciption = jsobject.getString("decription").toString();
+			//jc.host = getHostNameFromId(jsobject.getString("host").toString());
+			//jc.time = jsobject.getString("time").toString();
+			//jc.deciption = jsobject.getString("decription").toString();
 			jcArray.add(jc); 
 		}
 		} catch (Throwable t) {
@@ -155,5 +155,24 @@ public class JamList extends ListActivity {
             }
         }
         return sb.toString();
+    }
+    
+    public String getHostNameFromId(String Id) {
+    	HttpClient httpClient = new DefaultHttpClient();
+		HttpGet getMethod = new HttpGet("http://growing-flower-372.heroku.com/users/" + Id + ".json");
+    	HttpResponse response;
+		HttpEntity entity;
+		try {
+		response = httpClient.execute(getMethod);
+		entity = response.getEntity();
+		String contentString = convertStreamToString(entity.getContent());
+		JSONObject jobject = new JSONObject(contentString);
+		String username = jobject.getString("username");
+		return username;
+		} catch (Throwable t) {
+			t.printStackTrace();
+			String badid = "badId";
+			return badid;
+		}
     }
 }	

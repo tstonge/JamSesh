@@ -129,7 +129,7 @@ public class Instruments extends Activity {
     OnClickListener finishClick = new OnClickListener() {
 		@Override
 		public void onClick(View v) {
-			addUserToWebsite();
+			//addUserToWebsite();
 			Intent i = new Intent(Instruments.this, MainMenu.class);
 			startActivity(i);	
 		}
@@ -155,10 +155,9 @@ public class Instruments extends Activity {
 			
 	        post.setEntity(new UrlEncodedFormEntity(pairs));
 	        HttpResponse httpResponse = client.execute(post);
-	        Toast.makeText(Instruments.this, httpResponse.toString(), Toast.LENGTH_LONG).show();
 
 	    } catch( Throwable t ) {
-	        goBlooey(t);
+	        //goBlooey(t);
 	    	//Toast.makeText(Instruments.this, "Post failed " + t.toString(), Toast.LENGTH_LONG);
 	    }
 			

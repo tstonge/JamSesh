@@ -49,14 +49,13 @@ public class Login extends Activity {
 
 		@Override
 		public void onClick(View v) {
-			//int ret = getID();
-			//if (ret == -2 || ret == -3) {
-				//Toast.makeText(Login.this, "Incorrect Login Information", Toast.LENGTH_LONG).show();
-			//} 
-			if (true){//ret ==1){
+			int ret = getID();
+			if (ret == -2 || ret == -3) {
+				Toast.makeText(Login.this, "Incorrect Login Information", Toast.LENGTH_LONG).show();
+			} 
+			else if (ret ==1){
 				Intent i = new Intent(Login.this, MainMenu.class);
 				Toast.makeText(Login.this, "Succesfully Logged On!", Toast.LENGTH_LONG).show();
-				id = "1";
 				i.putExtra("com.jamsesh.id", id);
 				startActivity(i);		
 			}
