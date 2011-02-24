@@ -12,6 +12,7 @@ public class MainMenu extends Activity{
 	Button findjam;
 	Button startjam;
 	Button myjams;
+	String id; 
 	@Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,7 +23,8 @@ public class MainMenu extends Activity{
         myjams = (Button)findViewById(R.id.myjams);
         findjam.setOnClickListener(findJamClick);
         startjam.setOnClickListener(startJamClick);
-        myjams.setOnClickListener(myJamsClick);        
+        myjams.setOnClickListener(myJamsClick);       
+        id = getIntent().getStringExtra("com.jamsesh.id"); 
 	}
 	
 	OnClickListener findJamClick = new OnClickListener() {

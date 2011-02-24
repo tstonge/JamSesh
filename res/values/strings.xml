@@ -6,11 +6,12 @@
     <string name="pword">Password:</string>
     <string name="loginbutton">Login</string>
     <string name="newuser">Become a member!</string>
+    <string name="menu">Main Menu</string>
     <string name="findjam">Find a Jam</string>
     <string name="startjam">Start a Jam</string>
     <string name="myjams">My Jams</string>
     <string name="location">Location</string>
-    <string name="title">Slab a name on it!</string>
+    <string name="title">Slap a name on it!</string>
     <string name="time">When to show up</string>
     <string name="song">What will ya play?</string>
     <string name="comments">Any Comments?</string>
@@ -36,4 +37,5 @@
     <string name="hosting">Hosting</string>
     <string name="attending">Attending</string>
     <string name="mymessages">View Messages</string>
+    <string name="mycalendar">View Calendar</string>
 </resources>

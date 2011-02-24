@@ -10,7 +10,7 @@
 	android:typeface="serif"
 	android:textSize="20dip"
     android:layout_width="fill_parent" 
-    android:layout_height="24dip" 
+    android:layout_height="wrap_content"
     android:text="@string/findjamtop"
     android:gravity="center_horizontal"
     />
