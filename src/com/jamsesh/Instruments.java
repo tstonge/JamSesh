@@ -115,8 +115,9 @@ public class Instruments extends Activity {
 
         public void onItemSelected(AdapterView<?> parent,
             View view, int pos, long id) {
-          Toast.makeText(parent.getContext(),
+          /*Toast.makeText(parent.getContext(),
               parent.getItemAtPosition(pos).toString(), Toast.LENGTH_LONG).show();
+           */
         }
 
         public void onNothingSelected(AdapterView parent) {
