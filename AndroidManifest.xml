@@ -23,5 +23,7 @@
 		<activity android:name="JamList" />
 		<activity android:name="Instruments"></activity>
 		<activity android:name="JamInfo"></activity>
+		<activity android:name="MyJams"></activity>
+		<activity android:name="JamList"></activity>
     </application>
 </manifest>

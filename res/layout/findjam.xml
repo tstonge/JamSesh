@@ -48,7 +48,7 @@
     android:minLines="1"
     />
     <Button
-    android:id="@+id/findme"
+    android:id="@+id/findcontent"
     android:layout_width="fill_parent"
     android:gravity="center"
     android:layout_height="wrap_content"
