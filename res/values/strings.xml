@@ -33,4 +33,6 @@
     <string name="findcontent">Search Jam Details</string>
     <string name="findjamuser">Users</string>
     <string name="finduser">Find Users</string>
+    <string name="hosting">Hosting</string>
+    <string name="attending">Attending</string>
 </resources>
