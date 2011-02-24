@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="logo">JamSesh!</string>
+    <string name="app_name">JamSesh</string>
+    <string name="uname">Username:</string>
+    <string name="pword">Password:</string>
+    <string name="loginbutton">Login</string>
+    <string name="newuser">Become a member!</string>
+    <string name="findjam">Find a Jam</string>
+    <string name="startjam">Start a Jam</string>
+    <string name="myjams">My Jams</string>
+    <string name="location">Location</string>
+    <string name="title">Slab a name on it!</string>
+    <string name="time">When to show up</string>
+    <string name="song">What will ya play?</string>
+    <string name="comments">Any Comments?</string>
+    <string name="skillprompt">Select</string>
+    <string-array name="skills">
+        <item>Newbie</item>
+        <item>Average Jo(e)</item>
+        <item>Rockstar</item>
+    </string-array>
+    <string name="submit">Get yo\' jam on!</string>
+    <string name="locationdescription">What\'s the address of the jam?</string>
+    <string name="timedescription">Do you even own a watch?</string>
+    <string name="songdescription">Want to play a specific song or just jam?</string>
+    <string name="commentdescription">Are you looking for specific instruments?</string>
+    <string name="titledescription">What\'s the point?</string>
+    <string name="findjamtop">Find A Jam By...</string>
+    <string name="findjamlocation">Location</string>
+    <string name="findme">Near Me</string>
+    <string name="findjamcontent">Content</string>
+    <string name="findcontent">Search Jam Details</string>
+    <string name="findjamuser">Users</string>
+    <string name="finduser">Find Users</string>
+</resources>

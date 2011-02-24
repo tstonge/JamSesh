@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  	<TextView android:text="What do you play?" android:id="@+id/titleText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:typeface="serif" android:gravity="center" android:textSize="32dip"></TextView>
+    <ScrollView android:id="@+id/scrollView1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TableLayout android:id="@+id/tableLayout1" android:layout_width="match_parent" android:layout_height="match_parent" android:stretchColumns = "0,1">
+            <TableRow android:id="@+id/labelRow" android:layout_height="wrap_content" android:layout_width="wrap_content">
+                <TextView android:text="Instrument:" android:id="@+id/instText" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+                <TextView android:text="Skill Level:" android:id="@+id/skillText" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+            </TableRow>
+            <TableRow android:id="@+id/instSkillRow1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <EditText android:text="" android:id="@+id/inst1" android:layout_width="wrap_content" android:layout_height="wrap_content"></EditText>
+                <Spinner android:id="@+id/skill1" android:layout_width="wrap_content" android:layout_height="wrap_content"></Spinner>
+            </TableRow>
+            <TableRow android:id="@+id/instSkillRow2" android:layout_height="wrap_content" android:layout_width="wrap_content" android:visibility="gone">
+                <EditText android:id="@+id/inst2" android:layout_width="wrap_content" android:text="" android:layout_height="wrap_content"></EditText>
+                <Spinner android:layout_height="wrap_content" android:id="@+id/skill2" android:layout_width="wrap_content"></Spinner>
+            </TableRow>
+            <TableRow android:id="@+id/instSkillRow3" android:layout_height="wrap_content" android:layout_width="wrap_content" android:visibility="gone">
+                <EditText android:id="@+id/inst3" android:layout_width="wrap_content" android:text="" android:layout_height="wrap_content"></EditText>
+                <Spinner android:layout_height="wrap_content" android:id="@+id/skill3" android:layout_width="wrap_content"></Spinner>
+            </TableRow>
+            <TableRow android:id="@+id/instSkillRow4" android:layout_height="wrap_content" android:layout_width="wrap_content" android:visibility="gone">
+                <EditText android:id="@+id/inst4" android:layout_width="wrap_content" android:text="" android:layout_height="wrap_content"></EditText>
+                <Spinner android:layout_height="wrap_content" android:id="@+id/skill4" android:layout_width="wrap_content"></Spinner>
+            </TableRow>
+            <Button android:layout_height="wrap_content" android:id="@+id/addInst" android:text="Add Another Instrument" android:layout_width="wrap_content"></Button>
+            <Button android:layout_height="wrap_content" android:id="@+id/finish" android:text="Finish" android:layout_width="wrap_content"></Button>
+        </TableLayout>
+    </ScrollView>
+  
+</TableLayout>

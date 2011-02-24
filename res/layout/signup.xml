@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+		  xmlns:android="http://schemas.android.com/apk/res/android"
+		  android:layout_width="match_parent"
+		  android:layout_height="match_parent">
+    <TextView android:text="Create an Account" android:id="@+id/titleText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:typeface="serif" android:gravity="center" android:textSize="32dip"></TextView>
+	<ScrollView android:id="@+id/scrollView1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+       <TableLayout
+		  xmlns:android="http://schemas.android.com/apk/res/android"
+		  android:layout_width="match_parent"
+		  android:layout_height="match_parent"
+		  android:stretchColumns = "1" android:paddingLeft="3dip">
+		    <TableRow android:id="@+id/unameRow" android:layout_width="wrap_content" android:layout_height="wrap_content">
+		        <TextView android:text="Username:" android:id="@+id/uname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="right" android:paddingLeft="3dip" android:paddingRight="3dip"></TextView>
+		        <EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/editUname" android:text=""></EditText>
+		    </TableRow>
+		    <TableRow android:layout_height="wrap_content" android:id="@+id/pwordRow" android:layout_width="wrap_content">
+		        <TextView android:text="Password:" android:id="@+id/pword" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="right" android:paddingLeft="3dip" android:paddingRight="3dip"></TextView>
+		        <EditText android:text="" android:id="@+id/editPword" android:layout_width="wrap_content" android:layout_height="wrap_content"></EditText>
+		    </TableRow>
+		    <TableRow android:id="@+id/confPwordRow" android:layout_width="wrap_content" android:layout_height="wrap_content">
+		        <TextView android:text="Confirm Password:" android:id="@+id/confPword" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="right" android:paddingLeft="3dip" android:paddingRight="3dip"></TextView>
+		        <EditText android:text="" android:id="@+id/editConfPword" android:layout_width="wrap_content" android:layout_height="wrap_content"></EditText>
+		    </TableRow>
+		    <TableRow android:id="@+id/emailRow" android:layout_width="wrap_content" android:layout_height="wrap_content">
+		        <TextView android:text="Email:" android:id="@+id/email" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="right" android:paddingLeft="3dip" android:paddingRight="3dip"></TextView>
+		        <EditText android:text="" android:id="@+id/editEmail" android:layout_width="wrap_content" android:layout_height="wrap_content"></EditText>
+		    </TableRow>
+		    <TableRow android:id="@+id/locRow" android:layout_width="wrap_content" android:layout_height="wrap_content">
+		        <TextView android:text="Location (Zip Code):" android:id="@+id/loc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="right" android:paddingLeft="3dip" android:paddingRight="3dip"></TextView>
+		        <EditText android:text="" android:id="@+id/editLoc" android:layout_width="wrap_content" android:layout_height="wrap_content"></EditText>
+		    </TableRow>
+		    <Button android:text="Next" android:id="@+id/next" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+		</TableLayout>
+    </ScrollView>
+</TableLayout>
+

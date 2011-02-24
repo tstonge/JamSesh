@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+	android:id="@+id/logo"
+	android:typeface="serif"
+	android:textSize="32dip"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/logo"
+    android:gravity="center_horizontal"
+    />
+    <TableLayout
+    	android:paddingTop="25dip"
+    	android:layout_width = "fill_parent"
+    	android:layout_height = "wrap_content"
+    	android:orientation="horizontal"
+    	android:stretchColumns="1" >
+    	<TableRow>
+    	<TextView
+    	android:padding = "10dip"
+    	android:layout_width="wrap_content"
+    	android:layout_height = "wrap_content"
+    	android:id ="@+id/uname"
+    	android:text="@string/uname"
+    	/>
+    	<EditText
+    	android:layout_width="wrap_content"
+    	android:layout_height = "wrap_content"
+    	android:id ="@+id/unameedit"
+    	/>
+    	</TableRow>
+    	<TableRow>
+    	<TextView
+    	android:layout_width="wrap_content"
+    	android:layout_height = "wrap_content"
+    	android:id ="@+id/pword"
+    	android:text="@string/pword"
+    	android:padding = "10dip"
+    	/>
+    	<EditText
+    	android:layout_width="wrap_content"
+    	android:layout_height = "wrap_content"
+    	android:id ="@+id/pwordedit"
+    	/>
+    	</TableRow>
+    </TableLayout>
+    <Button
+    android:id="@+id/loginbutton"
+    android:layout_width = "match_parent"
+    android:layout_height = "wrap_content"
+    android:text="@string/loginbutton"
+    />
+    <Button
+    android:id="@+id/newuser"
+    android:layout_width = "match_parent"
+    android:layout_height = "wrap_content"
+    android:text="@string/newuser"
+    android:gravity="center_horizontal"
+    />
+</LinearLayout>

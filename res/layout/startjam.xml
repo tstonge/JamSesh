@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical">
+  <TextView  
+	android:id="@+id/logo"
+	android:typeface="serif"
+	android:textSize="32dip"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/startjam"
+    android:gravity="center_horizontal"
+    />
+  <ScrollView
+    android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical">
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical">
+    	<TextView
+    	android:layout_width="fill_parent"
+    	android:layout_height = "wrap_content"
+    	android:id ="@+id/titletextview"
+    	android:text="@string/title"
+    	/>
+    	<EditText
+    	android:text = "@string/titledescription"
+    	android:textSize = "12dip"
+    	android:textColor= "#00bb00"    	
+    	android:layout_width="fill_parent"
+    	android:layout_height = "wrap_content"
+    	android:id ="@+id/titleedittext"
+    	/>
+    	<TextView
+    	android:layout_width="fill_parent"
+    	android:layout_height = "wrap_content"
+    	android:id ="@+id/locationtextview"
+    	android:text="@string/location"
+    	/>
+    	<EditText
+    	android:layout_width="fill_parent"
+    	android:layout_height = "wrap_content"
+    	android:text = "@string/locationdescription"
+    	android:textSize = "12dip"
+    	android:textColor= "#00bb00"
+    	android:id ="@+id/locationedittext"
+    	/>    
+    	<TextView
+    	android:layout_width="fill_parent"
+    	android:layout_height = "wrap_content"
+    	android:id ="@+id/timetextview"
+    	android:text="@string/time"
+    	/>
+    	<EditText
+    	android:layout_width="fill_parent"
+    	android:layout_height = "wrap_content"
+    	android:text = "@string/timedescription"
+    	android:textSize = "12dip"
+    	android:textColor= "#00bb00"
+    	android:id ="@+id/timeedittext"
+    	/>        		
+    	<TextView
+    	android:layout_width="fill_parent"
+    	android:layout_height = "wrap_content"
+    	android:id ="@+id/songtextview"
+    	android:text="@string/song"
+    	/>
+    	<EditText
+    	android:text = "@string/songdescription"
+    	android:textSize = "12dip"
+    	android:textColor= "#00bb00"
+    	android:layout_width="fill_parent"
+    	android:layout_height = "wrap_content"
+    	android:id ="@+id/songedittext"
+    	/>
+    	<TextView
+    	android:layout_width="fill_parent"
+    	android:layout_height = "wrap_content"
+    	android:id ="@+id/commenttextview"
+    	android:text="@string/comments"
+    	/>
+    	<EditText
+    	android:text = "@string/commentdescription"
+    	android:textSize = "12dip"
+    	android:textColor= "#00bb00"
+    	android:layout_width="fill_parent"
+    	android:layout_height = "wrap_content"
+    	android:id ="@+id/commentedittext"
+    	android:gravity="top"
+    	android:maxLines = "5"
+    	android:minLines = "3"
+    	/>    
+    	<Button 
+        android:id="@+id/submit" 
+        android:gravity="center"
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" 
+        android:text="@string/submit"/>	
+    	</LinearLayout>
+    	</ScrollView>
+
+</LinearLayout>
