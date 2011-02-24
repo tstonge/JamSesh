@@ -26,6 +26,10 @@
                 <EditText android:id="@+id/inst4" android:layout_width="wrap_content" android:text="" android:layout_height="wrap_content"></EditText>
                 <Spinner android:layout_height="wrap_content" android:id="@+id/skill4" android:layout_width="wrap_content"></Spinner>
             </TableRow>
+            <TableRow android:id="@+id/instSkillRow5" android:layout_height="wrap_content" android:layout_width="wrap_content" android:visibility="gone">
+                <EditText android:id="@+id/inst5" android:layout_width="wrap_content" android:text="" android:layout_height="wrap_content"></EditText>
+                <Spinner android:layout_height="wrap_content" android:id="@+id/skill5" android:layout_width="wrap_content"></Spinner>
+            </TableRow>
             <Button android:layout_height="wrap_content" android:id="@+id/addInst" android:text="Add Another Instrument" android:layout_width="wrap_content"></Button>
             <Button android:layout_height="wrap_content" android:id="@+id/finish" android:text="Finish" android:layout_width="wrap_content"></Button>
         </TableLayout>
